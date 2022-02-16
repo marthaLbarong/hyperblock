@@ -1,6 +1,7 @@
 body
 {
-    color: pink;
+    background: #dedfe2;
+    color: rgb(34, 31, 31);
     text-align: center;
     font-family: "Arial";
     font-size: 16px;
@@ -10,9 +11,9 @@ body
 
 #cabecera
 {
-    background: #33A;
+    background: #2a376b;
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
-    color: white;
+    color: rgb(241, 233, 233);
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
@@ -30,7 +31,7 @@ body
     width: 70%;
     padding: 0;
     text-align: left;
-    border: 1px solid #DDD;
+    border: 1px solid rgb(39, 37, 37);
     margin: 0 auto;
 }
 
@@ -42,3 +43,11 @@ body
 {
     padding: 1em;
 }
+
+#footer
+[
+    background: #777;
+    color: white;
+    text-aling: center;
+    padding: 0.5cm;
+]
